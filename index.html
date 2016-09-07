@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Al's Series Generator</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    
+  </head>
+  <body>
+    <h1>Al's Series Generator</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+
+    <div id="divResult">
+
+    </div>
+
+    <!--Node: <script>document.write(process.versions.node)</script><br />-->
+    <!--Chromium: <script>document.write(process.versions.chrome)</script><br />-->
+    <!--Electron: <script>document.write(process.versions.electron)</script><br />-->
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
